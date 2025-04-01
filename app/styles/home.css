@@ -39,15 +39,17 @@
 
 .avatar-main {
     width: 100%;
-    background-color: white;
+    background-color: transparent;
     border-radius: 20px;
     box-shadow: 0px 10px 60px 0px rgba(164, 0, 214, 0.16), 0px 0px 0px 0px rgba(133, 0, 185, 0.185);
-    border: 12px solid white;
+    border: 5px solid transparent;
 }
 
 .avatar-con {
     width: 100%;
     padding: 0px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #cf7dff88, #ff008c46)
 }
 
 .icon-link {
@@ -80,13 +82,17 @@
 
 .card-class-1 {
     width: 100%;
-    background-color: white;
     box-shadow: 0px 10px 40px 0px rgba(164, 0, 214, 0.068);
     border-radius: 5px;
     padding: 10px 0px;
     gap: 15px;
     justify-content: space-between;
     border: 0px solid rgba(128, 0, 128, 0.24);
+    background: #ac84ff1c;
+    background: #f8f4ff69;
+    background: #fbf8ffce;
+    border: 1px dashed mediumpurple;
+    backdrop-filter: blur(10px);
 }
 
 .contact-info {
@@ -103,13 +109,15 @@
 
 .right-panel-card {
     width: 100%;
-    background: white;
+    background: rgba(255, 248, 251, 0.911);
     box-shadow: 0px 20px 40px 0px rgba(180, 0, 75, 0.048);
     border-radius: 15px;
     padding: 20px 0px;
+    border: 1px solid rgba(230, 43, 255, 0.349);
 }
 
 .expr-card {
     background: linear-gradient(rgb(255, 251, 252), rgb(253, 253, 243), rgb(253, 249, 255));
     background: rgba(255, 255, 255, 0.801);
+    border: 0px;
 }
