@@ -1,15 +1,60 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@font-face {
+  font-family: 'SamsungFont';
+  src: local('SamsungFont'), url(./assets/fonts/SamsungSharpSans-Bold.ttf) format('truetype');
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Figtree;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  user-select: none;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(60deg, rgb(247, 216, 221), rgb(235, 247, 243), rgb(233, 225, 250), rgb(250, 242, 229));
+}
+
+.hover-ptr:hover {
+  cursor: pointer;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
