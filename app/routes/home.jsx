@@ -19,8 +19,24 @@ export default function HomeView() {
         <div className="row" style={{gap: "15px", height: "fit-content"}}>
           <div className="left-panel column-center">
             <div className="left-panel-card-main column-center">
-              <div className="avatar-con column-center">
-                <img className="avatar-main" src={MyImage}/>
+              <div className="column-center" style={{gap: "5px"}}>
+                <div className="avatar-con column-center">
+                  <img className="avatar-main" src={MyImage}/>
+                </div>
+                <div className="row-center" style={{gap: "5px", justifyContent: "space-evenly", width: "100%"}}>
+                  <a className="row-center icon-link" href="https://instagram.com/very.anshul" style={{padding: "0px", background: "transparent"}}>
+                    <img className="icon-img" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"/>
+                  </a>
+                  <a className="row-center icon-link" href="https://discord.gg/SHJSg8QnrD" style={{padding: "0px", background: "transparent"}}>
+                    <img className="icon-img" src="https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg" style={{borderRadius: "7px"}}/>
+                  </a>
+                  <a className="row-center icon-link" href="https://github.com/aceexpert">
+                    <img className="icon-img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+                  </a>
+                  <a className="row-center icon-link" href="https://github.com/sputh-the-pigeon">
+                    <img className="icon-img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+                  </a>
+                </div>
               </div>
               <div className="personal-info-grid">
                 <div className="contact-info column card-class-1">

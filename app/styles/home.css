@@ -50,6 +50,21 @@
     padding: 0px;
 }
 
+.icon-link {
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    padding: 4px;
+    background: linear-gradient(rgb(245, 241, 252), rgb(255, 248, 255));
+    box-shadow: 0px 5px 20px 0px rgba(134, 0, 187, 0.164);
+    border-radius: 7px;
+}
+
+.icon-img {
+    height: 100%;
+    width: 100%;
+}
+
 .personal-info-grid {
     display: grid;
     grid-template-rows: repeat(21, 1fr);
