@@ -43,7 +43,7 @@
     border-radius: 20px;
     box-shadow: 0px 10px 60px 0px rgba(164, 0, 214, 0.16), 0px 0px 0px 0px rgba(133, 0, 185, 0.185);
     border: 5px solid transparent;
-    border: 9px solid transparent;
+    border: 12px solid transparent;
 }
 
 .avatar-con {
@@ -94,7 +94,7 @@
     background: #f8f4ff69;
     background: #fbf8ffce;
     background: #ffffff;
-    border: 1px dashed mediumpurple;
+    border: 0px dashed mediumpurple;
     backdrop-filter: blur(10px);
 }
 
@@ -118,7 +118,7 @@
     border-radius: 15px;
     padding: 20px 0px;
     border: 1px solid rgba(230, 43, 255, 0.349);
-    border: 2px solid rgb(181 43 255 / 66%)
+    border: 0px solid rgb(181 43 255 / 66%)
 }
 
 .expr-card {
