@@ -52,6 +52,7 @@
     border-radius: 20px;
     background: linear-gradient(45deg, #cf7dff88, #ff008c46);
     background: white;
+    background: linear-gradient(45deg, #cf7dff88, #12d5e946, #ffaed3d6);
 }
 
 .icon-link {
